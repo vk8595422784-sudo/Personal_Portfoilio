@@ -106,7 +106,7 @@ export default function Hero() {
                 Vikram
               </p>
               <p className="text-center subtitle-mono mb-0">
-                MERN Stack Developer
+                Full Stack Developer
               </p>
               <hr className="avatar-rule" />
               <ul className="list-unstyled avatar-meta mb-0">

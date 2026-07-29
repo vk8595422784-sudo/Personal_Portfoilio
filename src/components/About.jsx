@@ -48,7 +48,7 @@ export default function About() {
                 </li>
                 <li>
                   <span>Role</span>
-                  <b>MERN Stack Developer</b>
+                  <b>Full Stack Developer</b>
                 </li>
                 <li>
                   <span>Status</span>
