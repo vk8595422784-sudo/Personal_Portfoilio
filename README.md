@@ -40,35 +40,25 @@ portfolio-vikram-react/
 npm install
 npm run dev
 ```
-Then open the local URL Vite prints (usually `http://localhost:5173`).
 
-To build a production version:
-```bash
-npm run build     # outputs to /dist
-npm run preview   # preview the production build locally
+This will start the Vite development server, and you can view the application at `http://localhost:5173` (or another port if 5173 is in use).
+
+### Build
+
+To create a production-ready build of the application, run:
+
+```sh
+npm run build
 ```
 
-## ✏️ What to customize before sending this out
+This command will generate a `dist` directory with the optimized and minified assets for deployment.
 
-1. **`src/data/projects.js`** — replace the 4 sample projects with your real ones (title, description, tags, live/GitHub links).
-2. **`src/components/Contact.jsx`** — replace the placeholder email, phone, LinkedIn and GitHub values at the top of the file.
-3. **`public/Vikram_Resume.pdf`** — swap in your own resume PDF (keep the filename, or update the `href`/`download` links in `Hero.jsx`, `Navbar.jsx`, and `About.jsx`).
-4. **`Hero.jsx`** — the avatar shows "VK" initials in a circle. To use a real photo, add an image to `public/` and replace the `.avatar-circle` div with an `<img>` tag.
-5. **`src/data/skills.js`** — add/remove technologies; icons are pulled from the free [devicon](https://devicon.dev) CDN by slug name.
+## License
 
-## 🧩 Tech used
+This project is licensed under the MIT License - see the LICENSE file for details. <!-- TODO: Create a LICENSE file if you don't have one -->
 
-- **React 19** with functional components + hooks (`useState`, `useEffect`)
-- **Vite** for the dev server and build
-- **Bootstrap 5** (npm package) for the responsive grid, navbar, and form validation styles
-- **Bootstrap Icons** + **devicon** logos for visuals
-- Componentized architecture: each section is its own file, with reusable subcomponents
-  (`ProjectCard`, `SkillItem`) and shared data files under `src/data/`
+## Contact
 
-## 🌐 Deploying it for free
+Vikram - @YourTwitter - your.email@example.com <!-- TODO: Update contact info -->
 
-Since this needs a build step, use a host that runs `npm run build` for you:
-- **Vercel** or **Netlify**: connect your GitHub repo (or drag-and-drop the `dist/` folder after running `npm run build`).
-- **GitHub Pages**: run `npm run build`, then deploy the `dist/` folder using the `gh-pages` package or GitHub Actions.
-
-Good luck with the job search! 🎯
+Project Link: https://github.com/your-username/Personal_Portfolio <!-- TODO: Update repo link -->
