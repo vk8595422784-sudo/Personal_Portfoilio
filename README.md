@@ -41,7 +41,7 @@ npm install
 npm run dev
 ```
 
-This will start the Vite development server, and you can view the application at `http://localhost:5173` (or another port if 5173 is in use).
+This will start the Vite development server, and you can view the application at `https://personal-portfoilio-psi.vercel.app/` (or another port if 5173 is in use).
 
 ### Build
 
@@ -59,6 +59,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Vikram - @YourTwitter - your.email@example.com <!-- TODO: Update contact info -->
-
-Project Link: https://github.com/your-username/Personal_Portfolio <!-- TODO: Update repo link -->
+Project Link: https://github.com/vk8595422784-sudo/Personal_Portfoilio <!-- TODO: Update repo link -->
