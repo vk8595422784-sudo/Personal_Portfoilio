@@ -15,7 +15,7 @@ export default function Hero() {
       "(prefers-reduced-motion: reduce)",
     ).matches;
     const name = "Vikram";
-    const role = "MERN Stack Developer (Fresher)";
+    const role = "Full Stack Developer (Fresher)";
 
     if (prefersReducedMotion) {
       setTypedName(name);
