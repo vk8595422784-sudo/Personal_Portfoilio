@@ -73,6 +73,16 @@ const skillGroups = [
       { name: "AI-Assisted Development", bsIcon: "bi-robot" },
     ],
   },
+
+  {
+    id: "deployment",
+    title: "Deployment",
+    icon: "bi-cloud-arrow-up",
+    items: [
+      { name: "Vercel", icon: "vercel/vercel-original", darkBg: true },
+      { name: "Render", bsIcon: "bi-hdd-rack" },
+    ],
+  },
 ];
 
 export default skillGroups;
