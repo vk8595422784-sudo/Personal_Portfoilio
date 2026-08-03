@@ -16,17 +16,21 @@ export default function About() {
         <div className="row gy-4">
           <div className="col-lg-7">
             <p className="lead-body">
-              I&apos;m Vikram, a MERN Stack developer currently in my final year
-              of BCA. I build responsive web interfaces and full-stack
-              applications using MongoDB, Express.js, React.js and Node.js, and
-              I enjoy turning ideas into clean, working products.
+              A fresher developer, learning in public. I'm Vikram, a MERN Stack
+              developer pursuing BCA and currently enrolled in a 1-year
+              full-stack development program at Webigeeks, where I'm gaining
+              hands-on experience building real-world applications. I build
+              responsive web interfaces and full-stack applications using
+              MongoDB, Express.js, React.js, and Node.js — turning ideas into
+              clean, working products.{" "}
             </p>
             <p className="lead-body">
-              As a fresher, I&apos;m focused on writing readable code, following
-              good UI/UX practices with Bootstrap, and continuously shipping
-              small projects to sharpen my full-stack skills. I&apos;m actively
-              looking for an entry-level developer role where I can learn from a
-              strong engineering team and contribute from day one.
+              I focus on writing readable code, following good UI/UX practices
+              with Bootstrap, and shipping real projects like e-commerce
+              platforms, REST APIs with JWT authentication, and admin
+              dashboards. I'm actively looking for an entry-level developer role
+              where I can learn from a strong engineering team and contribute
+              from day one.
             </p>
             <div className="d-flex flex-wrap gap-2 mt-4">
               {TRAITS.map((trait) => (
