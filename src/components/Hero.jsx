@@ -78,7 +78,7 @@ export default function Hero() {
                       <span className="prompt">$</span> cat status.txt
                     </p>
                     <p className="term-out term-highlight">
-                      Fresher &middot; open to opportunities
+                      &middot; open to opportunities
                     </p>
                   </>
                 )}
